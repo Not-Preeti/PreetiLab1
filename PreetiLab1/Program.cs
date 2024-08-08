@@ -1,5 +1,5 @@
-﻿using System;
-
+﻿/*
+using System;
 namespace PreetiLab1
 {
     internal class Program
@@ -13,3 +13,4 @@ namespace PreetiLab1
         }
     }
 }
+*/
