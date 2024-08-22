@@ -8,10 +8,11 @@ namespace PreetiLab1
         {
             Console.WriteLine("Enter a string : ");
             string str = Console.ReadLine();
-            string strrev=string.Empty;
-            for(int i = str.Length-1; i >= -1; i--)
+            char[] chars = str.ToCharArray();
+            string strrev = String.Empty;
+            for (int i = chars.Length - 1; i > -1; i--)
             {
-                strrev = strrev+str[i];
+                strrev += chars[i];
             }
             Console.WriteLine("Reversed String : "+strrev);
             Console.ReadLine();
